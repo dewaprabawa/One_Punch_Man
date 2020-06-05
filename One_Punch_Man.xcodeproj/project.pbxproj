@@ -13,6 +13,10 @@
 		C3355DBE248A63D700E98D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3355DBC248A63D700E98D79 /* Main.storyboard */; };
 		C3355DC0248A63DB00E98D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3355DBF248A63DB00E98D79 /* Assets.xcassets */; };
 		C3355DC3248A63DB00E98D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3355DC1248A63DB00E98D79 /* LaunchScreen.storyboard */; };
+		C3355DCB248A6AF300E98D79 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3355DCA248A6AF300E98D79 /* HeroModel.swift */; };
+		C3355DCD248A6BED00E98D79 /* HeroDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3355DCC248A6BED00E98D79 /* HeroDataSources.swift */; };
+		C3355DD0248A70D000E98D79 /* HeroesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3355DCE248A70D000E98D79 /* HeroesCell.swift */; };
+		C3355DD1248A70D000E98D79 /* HeroesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3355DCF248A70D000E98D79 /* HeroesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C3355DBF248A63DB00E98D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3355DC2248A63DB00E98D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3355DC4248A63DB00E98D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3355DCA248A6AF300E98D79 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		C3355DCC248A6BED00E98D79 /* HeroDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDataSources.swift; sourceTree = "<group>"; };
+		C3355DCE248A70D000E98D79 /* HeroesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesCell.swift; sourceTree = "<group>"; };
+		C3355DCF248A70D000E98D79 /* HeroesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				C3355DB6248A63D700E98D79 /* AppDelegate.swift */,
+				C3355DCA248A6AF300E98D79 /* HeroModel.swift */,
+				C3355DCC248A6BED00E98D79 /* HeroDataSources.swift */,
 				C3355DB8248A63D700E98D79 /* SceneDelegate.swift */,
 				C3355DBA248A63D700E98D79 /* ViewController.swift */,
+				C3355DCE248A70D000E98D79 /* HeroesCell.swift */,
+				C3355DCF248A70D000E98D79 /* HeroesCell.xib */,
 				C3355DBC248A63D700E98D79 /* Main.storyboard */,
 				C3355DBF248A63DB00E98D79 /* Assets.xcassets */,
 				C3355DC1248A63DB00E98D79 /* LaunchScreen.storyboard */,
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3355DC3248A63DB00E98D79 /* LaunchScreen.storyboard in Resources */,
+				C3355DD1248A70D000E98D79 /* HeroesCell.xib in Resources */,
 				C3355DC0248A63DB00E98D79 /* Assets.xcassets in Resources */,
 				C3355DBE248A63D700E98D79 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3355DBB248A63D700E98D79 /* ViewController.swift in Sources */,
+				C3355DCB248A6AF300E98D79 /* HeroModel.swift in Sources */,
 				C3355DB7248A63D700E98D79 /* AppDelegate.swift in Sources */,
+				C3355DD0248A70D000E98D79 /* HeroesCell.swift in Sources */,
 				C3355DB9248A63D700E98D79 /* SceneDelegate.swift in Sources */,
+				C3355DCD248A6BED00E98D79 /* HeroDataSources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
